@@ -15,7 +15,7 @@ const numberTwoBtnValue = Math.floor(numberTwoBtn.textContent)
 
 
 numberOneBtn.addEventListener('click', function(){
-    result += numberOneBtnValue
+    result = 0
     message.textContent = `Result: ${result}`
 })
 
